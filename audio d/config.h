@@ -1,0 +1,9 @@
+#ifndef  __CONFIG_H__
+#define  __CONFIG_H__
+
+#define CONFIG_SCREEN_WIDTH  (1920)
+#define CONFIG_SCREEN_HEIGHT (1080)
+
+#define CONFIG_DEBUG_RAW_SENSOR_DATA  FALSE
+
+#endif

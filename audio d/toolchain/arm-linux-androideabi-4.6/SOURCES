@@ -1,0 +1,22 @@
+toolchain/build.git                    7fea44a379d6700cdfe69bd1f166cad4be955cf7 Replace -march=atom with -march=x86-64 for better host compatibility
+toolchain/gmp.git                      e6b9669dafc6a5f83c80b4b4176359b78bccdc90 Add gmp-5.0.5.tar.bz2
+toolchain/mpfr.git                     bfcf1bfa38469208aaad8873cd4c68781061d90f add mpfr-3.1.1.tar.bz2
+toolchain/mpc.git                      835d16e92eed875638a8b5d552034c3b1aae045b add mpc-1.0.1.tar.gz
+toolchain/cloog.git                    752788807d8087545bc7ac85382694a0a1bd1b04 add cloog-0.18.0.tar.gz
+toolchain/isl.git                      b05d4572958c5d497da793f3317084bab90c3033 add isl-0.11.1.tar.bz2 needed by GCC 4.8 with graphite
+toolchain/ppl.git                      8ba1875b4c5341d902321761022a6d2a0b5b19a4 add ppl-1.0.tar.bz2
+toolchain/expat.git                    40172a0ae9d40a068f1e1a48ffcf6a1ccf765ed5 expat package for building gdb-7.3
+toolchain/binutils.git                 831acf283992c03f08a38e560d39a0696d55ccd4 [2.22] Update mingw/plugins fixes from 2.23. That fixes make check-gold.
+toolchain/gcc.git                      d7fefe966940f5735d9becfb8718db793acb0fec Fix GCC 4.6 ARM broken -Os on boost 1.52.0
+toolchain/gdb.git                      9c1ebdf15f1a58b25b02c6166885473ede6fcf78 Use ARM software breakpoint for target of 'bx pc'
+toolchain/python.git                   30bef47fac04bd5e99da7d09c8ed4260e1fbf09c Python 2.7.5: Regen configure and pyconfig.h.in
+toolchain/perl.git                     1121daca35c6c692602621eab28d4de19f0b347d Add -Dcc_as_ld to configure
+toolchain/mclinker.git                 a519c7c0f007fbff52d51fff6b3f17b6be406fe6 Merge mclinker 2.4.0+
+toolchain/clang.git (release_33)       30ffb466cae63d23f3575699f62726bbd2195cc3 Backport upstream r184875 and r184887 for PR16344.
+toolchain/llvm.git (release_33)        fba53c05152c06041b6a12cbd7230f0e0441f3c7 Allow multiple -arm-enable-ehabi and -arm-enable-ehabi-descriptors
+toolchain/compiler-rt.git (release_33) 6b032de90cac8b6d3b20ac2310b5aa1e6f2617a1 Add __sync_* atomic builtins for other type width than 4.
+toolchain/clang.git (release_32)       15eb6af46c973715da1fc6737a67feab627d5dca Define LongDoubleWidth when !isAndroid
+toolchain/llvm.git (release_32)        062bfd28e99b1f60a42f5c436dd20699ab7984aa Allow multiple -arm-enable-ehabi and -arm-enable-ehabi-descriptors
+toolchain/compiler-rt.git (release_32) bc84109786d158a454d671566721c2d139c3285c Add atomic helper functions for arm.
+toolchain/clang.git (release_31)       a25ea900c00c1d1de331389ca58cfa8daa0c7dca Merge "Define __le32__ for target le32-none-ndk" into release_31
+toolchain/llvm.git (release_31)        9bc8eff68bd684c21ec036645f56baeb31506ea7 Allow multiple -arm-enable-ehabi and -arm-enable-ehabi-descriptors
